@@ -34,7 +34,7 @@ sns.heatmap(tips.corr(),cmap='coolwarm',annot=True)
 st.pyplot()
 
 #lineplot
-st.subheader("Pairplot")
+st.subheader("lineplot")
 sns.set_theme(style="darkgrid")
 sns.lineplot(x="Survived", y="Age", hue="Sex", data=df)
 st.pyplot()
